@@ -1,0 +1,65 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap);
+
+:root{
+    --text-color--: #8d1638fe;}
+    --text-color-blend--: #03055B;
+    --back-up-color: #E7FAF9;
+    /* font */
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    font-optical-sizing: auto;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background: url(Aesthetic\ books\ wallpaper\ background\image.jpeg)
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+nav{
+    width: 100%;
+    padding: 2rem 5rem 2rem 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav .Ebook h1{
+    font-size: 27px
+    color: #fff;
+}
+ui{
+    list-style: none;
+    display: flex;
+    gap: 3rem;
+}
+li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 25px;
+    padding: 10px 15px;
+    transition: 0.6s;
+}
+li a:hover{
+    background-color: var(--text-color--);
+}
+.active{
+    background-color: var(--text-color--);
+}
+button{
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    background-color: var(--text-color--);
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: 0.6s;
+}
