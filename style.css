@@ -29,7 +29,7 @@ nav{
     align-items: center;
 }
 nav .Ebook h1{
-    font-size: 27px
+    font-size: 27px;
     color: #fff;
 }
 ui{
@@ -53,13 +53,42 @@ li a:hover{
     background-color: var(--text-color--);
 }
 button{
-    padding: 10px 20px;
+    padding: 10px 15px;
     font-size: 18px;
     font-weight: 600;
-    color: #fff;
-    background-color: var(--text-color--);
-    border: none;
-    border-radius: 25px;
+    color: var(--back-up-color);
+    background: transparent;
+    border: 2px solid var(--back-up-color);
+    border-radius: 5px;
     cursor: pointer;
     transition: 0.6s;
+}
+button:hover{
+    background-color: var(--back-up-color);
+    color: #000;
+}
+
+/* hero content */
+
+.home-content{
+    padding: 2rem 5rem 2rem 5rem;
+    display: flex;
+    align-items: center;
+    height: 70vh;
+}
+.home-container{
+    align-items: center;
+    width: 600px;
+}
+.home-content .text h1{
+    font-size: 50px;
+    color: #fff;
+    padding-bottom: 30px;
+}
+.home-container p{
+    color:#fff;
+    padding-bottom: 20px;
+}
+#explore{
+    margin-left: 20px;
 }
